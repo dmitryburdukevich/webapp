@@ -1,0 +1,24 @@
+{% extends "./../base.html" %}
+
+{% block pre-content %}
+    <p style="text-align: center;">
+        <h3 class="align-center">
+              Your orders :
+        </h3>
+    </p>
+{% endblock pre-content %}
+
+{% block content %}
+    {% if orders.count == 0 %}
+        <a> No orders </a>
+    {% endif %}
+    {% for order in orders %}
+        <div>
+            <a href="{% url 'orders:order_specific' order.id %}">
+                Order_id: {{ order.id }}
+            </a>
+        </div>
+        <hr>
+    {% endfor %}
+
+{% endblock content %}

@@ -1,0 +1,38 @@
+{% extends "./../base.html" %}
+    {% block pre-content %}
+        <span class="text-center">
+            <h4 class="dealing-with-specificity text-primary">
+                Product categories
+            </h4>
+            <p>
+                Click category to search corresponding goods
+            </p>
+        </span>
+    {% endblock %}
+
+    {% block content %}
+        <!-- PRODUCT CONTENT -->
+        <h4 class="text-center">Categories : </h4>
+        <div class="album py-5 text-center">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <!-- Out all our objects -->
+                    {% for el in categories %}
+                    <!-- Тут генерирую параметры URL запроса для перехода к нужным товарам -->
+                    <a class="btn" href={{ el.get_valid_url_for_products }}>
+                        <div class="fade-out-siblings">
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <img src={{ el.image.url }} class="img-fluid" style="width: auto; height: 200px;">
+                                    <h3>{{el.title}}</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+
+    {% endblock %}

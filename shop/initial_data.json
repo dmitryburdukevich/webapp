@@ -1,0 +1,1089 @@
+[
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add category",
+      "content_type": 7,
+      "codename": "add_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change category",
+      "content_type": 7,
+      "codename": "change_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete category",
+      "content_type": 7,
+      "codename": "delete_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view category",
+      "content_type": 7,
+      "codename": "view_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add profile",
+      "content_type": 8,
+      "codename": "add_profile"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change profile",
+      "content_type": 8,
+      "codename": "change_profile"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete profile",
+      "content_type": 8,
+      "codename": "delete_profile"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view profile",
+      "content_type": 8,
+      "codename": "view_profile"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add product",
+      "content_type": 9,
+      "codename": "add_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change product",
+      "content_type": 9,
+      "codename": "change_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete product",
+      "content_type": 9,
+      "codename": "delete_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view product",
+      "content_type": 9,
+      "codename": "view_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add wallet",
+      "content_type": 10,
+      "codename": "add_wallet"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change wallet",
+      "content_type": 10,
+      "codename": "change_wallet"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete wallet",
+      "content_type": 10,
+      "codename": "delete_wallet"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view wallet",
+      "content_type": 10,
+      "codename": "view_wallet"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add Order",
+      "content_type": 11,
+      "codename": "add_order"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change Order",
+      "content_type": 11,
+      "codename": "change_order"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete Order",
+      "content_type": 11,
+      "codename": "delete_order"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view Order",
+      "content_type": 11,
+      "codename": "view_order"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add order item",
+      "content_type": 12,
+      "codename": "add_orderitem"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change order item",
+      "content_type": 12,
+      "codename": "change_orderitem"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete order item",
+      "content_type": 12,
+      "codename": "delete_orderitem"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view order item",
+      "content_type": 12,
+      "codename": "view_orderitem"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+      "name": "Can add order item rewards",
+      "content_type": 13,
+      "codename": "add_orderitemrewards"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+      "name": "Can change order item rewards",
+      "content_type": 13,
+      "codename": "change_orderitemrewards"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+      "name": "Can delete order item rewards",
+      "content_type": 13,
+      "codename": "delete_orderitemrewards"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+      "name": "Can view order item rewards",
+      "content_type": 13,
+      "codename": "view_orderitemrewards"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+      "name": "Can add product rewards",
+      "content_type": 13,
+      "codename": "add_productrewards"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+      "name": "Can change product rewards",
+      "content_type": 13,
+      "codename": "change_productrewards"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+      "name": "Can delete product rewards",
+      "content_type": 13,
+      "codename": "delete_productrewards"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+      "name": "Can view product rewards",
+      "content_type": 13,
+      "codename": "view_productrewards"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+      "name": "Can add product reward",
+      "content_type": 13,
+      "codename": "add_productreward"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+      "name": "Can change product reward",
+      "content_type": 13,
+      "codename": "change_productreward"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+      "name": "Can delete product reward",
+      "content_type": 13,
+      "codename": "delete_productreward"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+      "name": "Can view product reward",
+      "content_type": 13,
+      "codename": "view_productreward"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "main",
+      "model": "category"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "main",
+      "model": "profile"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "main",
+      "model": "product"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "main",
+      "model": "wallet"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "orders",
+      "model": "order"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+      "app_label": "orders",
+      "model": "orderitem"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+      "app_label": "main",
+      "model": "productreward"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "0n2raskc2lqkgt0q1d9iwgv7cxv510nb",
+    "fields": {
+      "session_data": "e30:1lohB2:utZh5L0NVgCJUuJMPWxcpOpSWKr5mXLe3XdQmO8EeaQ",
+      "expire_date": "2021-06-17T06:50:00.852Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "3d2ffrq96796g9dbn5yovylmbpt05i5g",
+    "fields": {
+      "session_data": "e30:1loKWt:vHgXbUJZ1Auedewa0CYd7yD1TCVFwQeEOUjRIq4J8BE",
+      "expire_date": "2021-06-16T06:39:03.613Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "69piaxknzw0bpz6abhy038kbuqd428ow",
+    "fields": {
+      "session_data": "e30:1loR4D:lYpWj_mC5goI1nI9xcsOQXb7MFt6Gu-QS8wfHZzuhAo",
+      "expire_date": "2021-06-16T13:37:53.408Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "6viflt08feng5v30yoxj9xiv2ruo7qzz",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hCgBYpL9z0DmRkGqRqalHZlvLtt0oVu_3vvv0WEbS1xa7zEKYmr0OLyuyHQk-sB0gPqfZY013WZUB6KPGmT45z4dTvdv4MCrey1AU_Y5YTasnfgEznvXRiscWiUYsW2yxhM5l4FwgFol0nn3lifWDnx-QL07zhk:1loS8t:HwwDg1FINImBPJ6wNm9CxN-RtFAFQaAftN6F8ktO2U0",
+      "expire_date": "2021-06-16T14:46:47.675Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "di64mf09m6jjsnx4acm4mrkgrootlmjp",
+    "fields": {
+      "session_data": "e30:1loK5h:URvlxE-DiC1XZGIj3IZ9mJo-u5wX6qUOLJ_2ho5ep-E",
+      "expire_date": "2021-06-16T06:10:57.277Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "ed7gsfgnofqhmcx399adntr09psg5rbz",
+    "fields": {
+      "session_data": "e30:1lohFD:ZK4E6p_j3RUmqVqECNSZWMiXGkuA8mjrO3PJXEmM-I4",
+      "expire_date": "2021-06-17T06:54:19.726Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "ig0zhjn4lqqxisa50kra8hgiihfm2i41",
+    "fields": {
+      "session_data": "e30:1loRJW:72BuCOnrgpS8hvwX9at_zwYyvh17nHc12zFJEbP47Ag",
+      "expire_date": "2021-06-16T13:53:42.263Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "jvp4ym24we59hg1xao65luj0u9yi2b5w",
+    "fields": {
+      "session_data": "e30:1lohAP:P72Y0AJ2N1G_grD6URVCbWC0eCfzRBmg09ZwXL1O0mo",
+      "expire_date": "2021-06-17T06:49:21.173Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "lx5k9ue3imc3r6o2sbs1brd8va2ee8u3",
+    "fields": {
+      "session_data": ".eJxVjEEOgyAQRe_CuiGIAuKy-56BzAxDtW0wEVwZ715NXLTb_95_mwiw1jGshZcwRTGIRtx-NwR6cz5BfEF-zpLmXJcJ5anIixb5mCN_7pf7FxihjMdbgyNsU8TGsLPgIlnnrO-NtqiVYsWmTeh14k55wh7okKlJnTYusrJHlGCpYtj2_Qs3sDuw:1lqXgX:LN3v4y9Amj2dLmQgBJzRWVzaE4BSDUjrmP_h_LY1YZU",
+      "expire_date": "2021-06-22T09:06:09.770Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "mkganv2nxqu6e3c430z2evi1dwypzlch",
+    "fields": {
+      "session_data": ".eJxVjEEOgyAQRe_CuiECI6jL7j0DGYah2DaaoK6Md29JXLTb_95_h_C4b9nvKxc_RTGIVtx-t4D04rmC-MT5sUha5q1MQVZFXnSV4xL5fb_cv0DGNX_fPQCRc-S0Na5vDIFWhIRgW2ssqR5iSBpih6kjSBzYMrGJrBQ0wdYoYdnEcJznBx-vO7I:1lqZkn:LipKojSEscmsQXWqkL5GgU7sP41Gsx1S_yk5BCJfCjg",
+      "expire_date": "2021-06-22T11:18:41.072Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "nxi2ar2llqtmmlaa561rg702d9416eu1",
+    "fields": {
+      "session_data": "e30:1loRIp:LLbj91vHAH8kexmGfNT0q4BGkyukEIoUXGYw7oEY46Y",
+      "expire_date": "2021-06-16T13:52:59.022Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "o5mskpzc4qsg3snj3cye49x39czzinnm",
+    "fields": {
+      "session_data": "e30:1loRKL:dtnwLioC-W4-iKicY7iKjLtyD9oGg41tQgeS8xwWcn4",
+      "expire_date": "2021-06-16T13:54:33.768Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "pwv41v2y4az2vyxif3i049wjfvk610jw",
+    "fields": {
+      "session_data": "e30:1loh9Z:skoQ4Aiet0NSouOfgIv7p4LzfJ9Os8LebiUS7eIDrQs",
+      "expire_date": "2021-06-17T06:48:29.796Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "s5lwps30ff0osu2exatbes11wwnefoi6",
+    "fields": {
+      "session_data": "e30:1loK5y:mrlsLPM_P0LRBPBh7ssXTB962VQNsVvIVJ4rZA3n7ZI",
+      "expire_date": "2021-06-16T06:11:14.084Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "sl5krqbynf3oooq46mqcoj7pim1hitrk",
+    "fields": {
+      "session_data": "eyJjYXJ0Ijp7fX0:1lq1Jr:MYw2Xkxd8CcCbN3IKc39h0tDLK_W7C8CDRFo3DUSpK8",
+      "expire_date": "2021-06-20T22:32:35.238Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "t65u45pl2giz4un5zxv3krb5xg6ruy0m",
+    "fields": {
+      "session_data": "eyJjYXJ0Ijp7fX0:1lq1bq:-BbqMvsEvwR7a9llJxwvygOwzkK1PGjxnbi0lkrsjzg",
+      "expire_date": "2021-06-20T22:51:10.864Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "x71v590dl1bvmy3t3arrbzinv0qx9w4y",
+    "fields": {
+      "session_data": "e30:1lohA8:hmaZyIvxrtjltusEH82X62CesRlGrVvWxqInHNoAL9c",
+      "expire_date": "2021-06-17T06:49:04.371Z"
+    }
+  },
+  {
+    "model": "main.category",
+    "pk": 1,
+    "fields": {
+      "title": "Dairy",
+      "image": "Dairy.jpg",
+      "slug": "dairy"
+    }
+  },
+  {
+    "model": "main.category",
+    "pk": 2,
+    "fields": {
+      "title": "Sweets",
+      "image": "Sweets.jpg",
+      "slug": "sweets"
+    }
+  },
+  {
+    "model": "main.category",
+    "pk": 5,
+    "fields": {
+      "title": "Fruits",
+      "image": "Fruits_JnL8Tyd.jpg",
+      "slug": "fruits"
+    }
+  },
+  {
+    "model": "main.category",
+    "pk": 6,
+    "fields": {
+      "title": "Grains",
+      "image": "Grains.jpg",
+      "slug": "grains"
+    }
+  },
+  {
+    "model": "main.category",
+    "pk": 7,
+    "fields": {
+      "title": "Processed",
+      "image": "Processed.jpg",
+      "slug": "processed"
+    }
+  },
+  {
+    "model": "main.category",
+    "pk": 8,
+    "fields": {
+      "title": "Meat",
+      "image": "Meat.jpg",
+      "slug": "meat"
+    }
+  },
+  {
+    "model": "main.category",
+    "pk": 9,
+    "fields": {
+      "title": "Drinks",
+      "image": "Drinks.jpg",
+      "slug": "drinks"
+    }
+  },
+  {
+    "model": "main.productreward",
+    "pk": 1,
+    "fields": {
+      "tag": "2018-best"
+    }
+  },
+  {
+    "model": "main.productreward",
+    "pk": 2,
+    "fields": {
+      "tag": "2019-best"
+    }
+  },
+  {
+    "model": "main.productreward",
+    "pk": 3,
+    "fields": {
+      "tag": "2020-best"
+    }
+  },
+  {
+    "model": "main.productreward",
+    "pk": 4,
+    "fields": {
+      "tag": "2021-best"
+    }
+  },
+  {
+    "model": "main.product",
+    "pk": 1,
+    "fields": {
+      "title": "Cheese",
+      "description": "The best cheese ever.",
+      "category": 1,
+      "price": "6.99",
+      "amount": 12,
+      "image": "Cheese.jpeg",
+      "slug": "cheese",
+      "rewards": [ ]
+    }
+  },
+  {
+    "model": "main.product",
+    "pk": 2,
+    "fields": {
+      "title": "Milk",
+      "description": "From happiest cows",
+      "category": 1,
+      "price": "4.99",
+      "amount": 12,
+      "image": "Milk.jpg",
+      "slug": "milk",
+      "rewards": [
+        2,
+        4
+      ]
+    }
+  },
+  {
+    "model": "main.product",
+    "pk": 3,
+    "fields": {
+      "title": "Doughnut",
+      "description": "Just try it",
+      "category": 2,
+      "price": "2.99",
+      "amount": 11,
+      "image": "Doughnut.jpg",
+      "slug": "doughnut",
+      "rewards": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "main.product",
+    "pk": 4,
+    "fields": {
+      "title": "Biscuits",
+      "description": "Look at this beautiful circles!",
+      "category": 2,
+      "price": "1.99",
+      "amount": 15,
+      "image": "Biscuits.jpg",
+      "slug": "biscuits",
+      "rewards": [ ]
+    }
+  },
+  {
+    "model": "main.product",
+    "pk": 5,
+    "fields": {
+      "title": "Banana",
+      "description": "From Africa with love",
+      "category": 5,
+      "price": "0.99",
+      "amount": 7,
+      "image": "Banana.jpg",
+      "slug": "banana",
+      "rewards": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "main.product",
+    "pk": 6,
+    "fields": {
+      "title": "Pineapple",
+      "description": "From Spain",
+      "category": 5,
+      "price": "1.50",
+      "amount": 6,
+      "image": "Pineapple.jpg",
+      "slug": "pineapple",
+      "rewards": [
+        1,
+        3
+      ]
+    }
+  },
+  {
+    "model": "main.product",
+    "pk": 7,
+    "fields": {
+      "title": "Buckwheat",
+      "description": "Yammy",
+      "category": 6,
+      "price": "2.30",
+      "amount": 11,
+      "image": "Buckwheat.jpg",
+      "slug": "buckwheat",
+      "rewards": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "main.product",
+    "pk": 8,
+    "fields": {
+      "title": "Rice",
+      "description": "From China",
+      "category": 6,
+      "price": "2.00",
+      "amount": 6,
+      "image": "Rice.jpg",
+      "slug": "rice",
+      "rewards": [ ]
+    }
+  },
+  {
+    "model": "main.product",
+    "pk": 9,
+    "fields": {
+      "title": "Pizza",
+      "description": "Ready-to-cook",
+      "category": 7,
+      "price": "4.80",
+      "amount": 6,
+      "image": "Pizza.jpg",
+      "slug": "pizza",
+      "rewards": [ ]
+    }
+  },
+  {
+    "model": "main.product",
+    "pk": 10,
+    "fields": {
+      "title": "Salad",
+      "description": "The freshest bowl",
+      "category": 7,
+      "price": "6.50",
+      "amount": 6,
+      "image": "Salad.jpg",
+      "slug": "salad",
+      "rewards": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "main.product",
+    "pk": 11,
+    "fields": {
+      "title": "Beef",
+      "description": "Good quality",
+      "category": 8,
+      "price": "5.60",
+      "amount": 8,
+      "image": "Beef.jpg",
+      "slug": "beef",
+      "rewards": [
+        4
+      ]
+    }
+  },
+  {
+    "model": "main.product",
+    "pk": 12,
+    "fields": {
+      "title": "Pork",
+      "description": "Best quality",
+      "category": 8,
+      "price": "6.40",
+      "amount": 7,
+      "image": "Pork.jpg",
+      "slug": "pork",
+      "rewards": [ ]
+    }
+  },
+  {
+    "model": "main.product",
+    "pk": 13,
+    "fields": {
+      "title": "Water",
+      "description": "From fresh springs",
+      "category": 9,
+      "price": "4.00",
+      "amount": 21,
+      "image": "Water.jpg",
+      "slug": "water",
+      "rewards": [ ]
+    }
+  },
+  {
+    "model": "main.product",
+    "pk": 14,
+    "fields": {
+      "title": "Fanta",
+      "description": "Fresh orange taste",
+      "category": 9,
+      "price": "2.15",
+      "amount": 15,
+      "image": "Fanta.jpg",
+      "slug": "fanta",
+      "rewards": [ ]
+    }
+  }
+]

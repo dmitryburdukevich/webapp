@@ -1,0 +1,13 @@
+.DS_Store
+*/.DS_Store
+.idea
+*/.idea
+*/venv
+*.pdf
+debug.log
+*/debug.log
+*/.coverage
+*/.pytest_cache
+*/__pycache__
+*/*/__pycache__
+data/*
